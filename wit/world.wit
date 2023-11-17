@@ -1,0 +1,7 @@
+package component:cargo-component-issue139
+
+/// An example world for the component to target.
+world example {
+    import imported: func()
+    export hello-world: func() -> string
+}
